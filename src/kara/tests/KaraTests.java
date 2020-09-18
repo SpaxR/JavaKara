@@ -18,7 +18,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    public void KaraUndDieBlaetter() throws Exception {
+    public void _00_KaraUndDieBlaetter() throws Exception {
         starter = new _00_KaraUndDieBlaetter();
 
         RunTest(starter, "aufgaben/_00_kleeblaetter_aufnehmen/world1");
@@ -27,7 +27,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    public void TunnelEingang() throws Exception {
+    public void _01_TunnelEingang() throws Exception {
         starter = new _01_TunnelEingang();
 
         RunTest(starter, "aufgaben/_01_tunnel_eingang/world1");
@@ -36,7 +36,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    public void TunnelAusgang() throws Exception {
+    public void _02_TunnelAusgang() throws Exception {
         starter = new _02_TunnelAusgang();
 
         RunTest(starter, "aufgaben/_02_tunnel_ausgang/world1");
@@ -46,7 +46,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void BlaetterSuche1() throws Exception {
+    public void _03_BlaetterSuche1() throws Exception {
         starter = new _03_Blaettersuche();
 
         RunTest(starter, "aufgaben/_03_blaettersuche_1/world1");
@@ -56,7 +56,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void BlaetterSuche2() throws Exception {
+    public void _04_BlaetterSuche2() throws Exception {
         starter = new _04_Blaettersuche();
 
         RunTest(starter, "aufgaben/_04_blaettersuche_2/world1");
@@ -66,7 +66,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void BlaetterSuche3() throws Exception {
+    public void _05_BlaetterSuche3() throws Exception {
         starter = new _05_Blaettersuche();
 
         RunTest(starter, "aufgaben/_05_blaettersuche_3/world1");
@@ -77,7 +77,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Pacman() throws Exception {
+    public void _06_Pacman() throws Exception {
         starter = new _06_Pacman();
 
         RunTest(starter, "aufgaben/_06_pacman/world1");
@@ -86,7 +86,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void WandEntlang() throws Exception {
+    public void _07_WandEntlang() throws Exception {
         starter = new _07_WandEntlang();
 
         RunTest(starter, "aufgaben/_07_wandentlang/world1");
@@ -96,7 +96,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Slalom() throws Exception {
+    public void _08_Slalom() throws Exception {
         starter = new _08_Slalom();
 
         RunTest(starter, "aufgaben/_08_slalom/world1");
@@ -106,7 +106,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void BilderInvertieren() throws Exception {
+    public void _09_BilderInvertieren() throws Exception {
         starter = new _09_BilderInvertieren();
 
         RunTest(starter, "aufgaben/_09_bilder_invertieren/world1");
@@ -116,7 +116,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Spirale() throws Exception {
+    public void _10_Spirale() throws Exception {
         starter = new _10_Spirale();
 
         RunTest(starter, "aufgaben/_10_spirale/world1");
@@ -124,7 +124,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Dreiecke() throws Exception {
+    public void _11_Dreiecke() throws Exception {
         starter = new _11_Dreiecke();
 
         RunTest(starter, "aufgaben/_11_dreiecke/world1");
@@ -132,7 +132,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Labyrinth() throws Exception {
+    public void _12_Labyrinth() throws Exception {
         starter = new _12_Labyrinth();
 
         RunTest(starter, "aufgaben/_12_labyrinthe/world1");
@@ -142,7 +142,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void GameOfLife() throws Exception {
+    public void _13_GameOfLife() throws Exception {
         starter = new _13_GameOfLife();
 
         RunTest(starter, "aufgaben/_13_gameoflife/world1");
@@ -152,7 +152,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Lindenmayer() throws Exception {
+    public void _14_Lindenmayer() throws Exception {
         starter = new _14_Lindenmayer();
 
         RunTest(starter, "aufgaben/_14_lindenmayer/world1");
@@ -160,7 +160,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void BubbleSort() throws Exception {
+    public void _15_BubbleSort() throws Exception {
         starter = new _15_BubbleSort();
 
         RunTest(starter, "aufgaben/_15_bubblesort/world1");
@@ -170,7 +170,7 @@ public class KaraTests extends KaraTest {
 
     @Test
     @Disabled
-    public void Mandelbrot() throws Exception {
+    public void _16_Mandelbrot() throws Exception {
         starter = new _16_Mandelbrot();
 
         RunTest(starter, "aufgaben/_16_mandelbrot/world1");
