@@ -2,8 +2,6 @@ package kara.loesungen;
 
 import kara.KaraStarter;
 
-import java.awt.*;
-
 public class _07_WandEntlang extends KaraStarter {
 
     public static void main(String[] args) throws Exception {
@@ -15,25 +13,29 @@ public class _07_WandEntlang extends KaraStarter {
 
     @Override
     public void runKara() {
-        Point start = kara.getPosition();
+        kara.putLeaf(); // Set starting point
 
-        // Find Beginning
         while (!kara.treeRight())
             kara.move();
 
-        while (true) {
+        while (!kara.onLeaf()) {
             while (kara.treeRight()) {
-
                 while (kara.treeFront()) // may even turn around
                     kara.turnLeft();
 
-                kara.move();
-                if (start.equals(kara.getPosition())) return; // Only do one round
+                // Stop if round completed
+                if (!kara.onLeaf()) kara.move();
             }
 
-            kara.turnRight();
-            kara.move();
-            if (start.equals(kara.getPosition())) return; // Only do one round
+            // Stop if round completed
+            if (!kara.onLeaf()) {
+                kara.turnRight();
+                kara.move();
+            }
         }
+
+        // Remove starting Point
+        kara.removeLeaf();
+
     }
 }
