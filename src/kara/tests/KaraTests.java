@@ -45,6 +45,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void BlaetterSuche1() throws Exception {
         starter = new _03_Blaettersuche();
 
@@ -54,6 +55,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void BlaetterSuche2() throws Exception {
         starter = new _04_Blaettersuche();
 
@@ -63,6 +65,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void BlaetterSuche3() throws Exception {
         starter = new _05_Blaettersuche();
 
@@ -73,6 +76,7 @@ public class KaraTests extends KaraTest {
 
 
     @Test
+    @Disabled
     public void Pacman() throws Exception {
         starter = new _06_Pacman();
 
@@ -81,6 +85,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void WandEntlang() throws Exception {
         starter = new _07_WandEntlang();
 
@@ -90,6 +95,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void Slalom() throws Exception {
         starter = new _08_Slalom();
 
@@ -99,6 +105,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void BilderInvertieren() throws Exception {
         starter = new _09_BilderInvertieren();
 
@@ -108,6 +115,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void Spirale() throws Exception {
         starter = new _10_Spirale();
 
@@ -115,6 +123,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void Dreiecke() throws Exception {
         starter = new _11_Dreiecke();
 
@@ -122,6 +131,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void Labyrinth() throws Exception {
         starter = new _12_Labyrinth();
 
@@ -131,6 +141,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void GameOfLife() throws Exception {
         starter = new _13_GameOfLife();
 
@@ -140,6 +151,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void Lindenmayer() throws Exception {
         starter = new _14_Lindenmayer();
 
@@ -147,6 +159,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void BubbleSort() throws Exception {
         starter = new _15_BubbleSort();
 
@@ -156,6 +169,7 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
+    @Disabled
     public void Mandelbrot() throws Exception {
         starter = new _16_Mandelbrot();
 
