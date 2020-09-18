@@ -6,8 +6,7 @@ public class _14_Lindenmayer extends KaraStarter {
 
     public static void main(String[] args) throws Exception {
         KaraStarter starter = new _14_Lindenmayer();
-        starter.loadWorld("aufgaben/_14_lindenmayer/world1.world");
-        starter.runKara();
+        starter.runKara("aufgaben/_14_lindenmayer/world1.world");
     }
 
     @Override

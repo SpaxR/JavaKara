@@ -25,6 +25,11 @@ public abstract class KaraStarter extends JavaKaraProgram {
         this.setWorld((World) this._app.getWorldEditorFacade().getWorldEditor().getContent());
     }
 
+    public void runKara(String world) throws Exception {
+        loadWorld(world);
+        runKara();
+    }
+
     public abstract void runKara();
 
 

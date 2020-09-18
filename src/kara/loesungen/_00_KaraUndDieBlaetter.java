@@ -6,10 +6,9 @@ public class _00_KaraUndDieBlaetter extends KaraStarter {
 
     public static void main(String[] args) throws Exception {
         KaraStarter starter = new _00_KaraUndDieBlaetter();
-        starter.loadWorld("aufgaben/_00_kleeblaetter_aufnehmen/world1.world");
-//        starter.loadWorld("aufgaben/_00_kleeblaetter_aufnehmen/world2.world");
-//        starter.loadWorld("aufgaben/_00_kleeblaetter_aufnehmen/world3.world");
-        starter.runKara();
+        starter.runKara("aufgaben/_00_kleeblaetter_aufnehmen/world1.world");
+        starter.runKara("aufgaben/_00_kleeblaetter_aufnehmen/world2.world");
+        starter.runKara("aufgaben/_00_kleeblaetter_aufnehmen/world3.world");
     }
 
 
