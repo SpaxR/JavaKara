@@ -13,6 +13,16 @@ public class _05_Blaettersuche extends KaraStarter {
 
     @Override
     public void runKara() {
+        while (!kara.onLeaf()) {
+            if (kara.treeFront())
+                changeDirection();
+            else
+                kara.move();
+        }
+    }
 
+    private void changeDirection() {
+        if (!kara.treeLeft()) kara.turnLeft();
+        if (!kara.treeRight()) kara.turnRight();
     }
 }
