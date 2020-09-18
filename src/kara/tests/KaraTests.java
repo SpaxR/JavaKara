@@ -90,7 +90,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _08_Slalom() throws Exception {
         starter = new _08_Slalom();
 
@@ -109,7 +108,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _10_Spirale() throws Exception {
         starter = new _10_Spirale();
 
@@ -117,7 +115,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _11_Dreiecke() throws Exception {
         starter = new _11_Dreiecke();
 
@@ -125,7 +122,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _12_Labyrinth() throws Exception {
         starter = new _12_Labyrinth();
 

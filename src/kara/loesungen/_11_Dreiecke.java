@@ -11,6 +11,30 @@ public class _11_Dreiecke extends KaraStarter {
 
     @Override
     public void runKara() {
+        boolean isGoingRight = true;
+
+        // Height of Triangle
+        for (int line = 1; line <= 20; line += 2) {
+
+            // place Line
+            for (int i = 0; i < line; i++) {
+                kara.putLeaf();
+                kara.move();
+            }
+
+            // goto next line
+            if (isGoingRight) {
+                kara.turnRight();
+                kara.move();
+                kara.turnRight();
+            } else {
+                kara.turnLeft();
+                kara.move();
+                kara.turnLeft();
+            }
+            isGoingRight = !isGoingRight;
+        }
+
 
     }
 }

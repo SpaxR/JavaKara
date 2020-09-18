@@ -11,7 +11,13 @@ public class _10_Spirale extends KaraStarter {
 
     @Override
     public void runKara() {
-
+        for (int length = 1; length <= 20; length++) {
+            for (int i = 0; i < length; i++) {
+                kara.putLeaf();
+                kara.move();
+            }
+            kara.turnRight();
+        }
     }
 }
 
