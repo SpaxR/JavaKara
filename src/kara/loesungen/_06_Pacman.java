@@ -12,6 +12,39 @@ public class _06_Pacman extends KaraStarter {
 
     @Override
     public void runKara() {
+        while (!(kara.treeFront() && kara.onLeaf())) {
+
+            if (kara.onLeaf()) {
+                kara.removeLeaf();
+                kara.move();
+            } else {
+                findNextLeaf();
+            }
+        }
+
+        // Take last Leaf
+        kara.removeLeaf();
+    }
+
+    private void findNextLeaf() {
+        // Turn Around
+        kara.turnLeft();
+        kara.turnLeft();
+        kara.move();
+
+        // Look LeftSide
+        kara.turnRight();
+        kara.move();
+
+        if (!kara.onLeaf()) {
+            // Look Right Side
+            kara.turnLeft();
+            kara.turnLeft();
+            kara.move();
+            kara.move();
+        }
+
 
     }
+
 }

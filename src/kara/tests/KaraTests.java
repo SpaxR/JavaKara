@@ -73,7 +73,6 @@ public class KaraTests extends KaraTest {
 
 
     @Test
-    @Disabled
     public void _06_Pacman() throws Exception {
         starter = new _06_Pacman();
 
@@ -82,7 +81,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _07_WandEntlang() throws Exception {
         starter = new _07_WandEntlang();
 
