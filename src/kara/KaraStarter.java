@@ -27,4 +27,8 @@ public abstract class KaraStarter extends JavaKaraProgram {
 
     public abstract void runKara();
 
+
+    public void stop() {
+        this._app.stopApplication();
+    }
 }
