@@ -45,7 +45,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _03_BlaetterSuche1() throws Exception {
         starter = new _03_Blaettersuche();
 
@@ -55,7 +54,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _04_BlaetterSuche2() throws Exception {
         starter = new _04_Blaettersuche();
 
@@ -65,7 +63,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _05_BlaetterSuche3() throws Exception {
         starter = new _05_Blaettersuche();
 
@@ -105,7 +102,6 @@ public class KaraTests extends KaraTest {
     }
 
     @Test
-    @Disabled
     public void _09_BilderInvertieren() throws Exception {
         starter = new _09_BilderInvertieren();
 
